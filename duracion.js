@@ -1,10 +1,6 @@
 let calculo,reset,tiempoSec=0;
 let app=document.getElementById('app');
 
-// calculo=document.getElementById('tiempo');
-// calculo.addEventListener('click',calcularTiempo);
-
-
 
 (function agregarOpciones(){
     fetch('https://raw.githubusercontent.com/Nirbeat/listaTNC/539436c320651c26db5d8ca789f5c9226ef3d6e9/duraciones?token=GHSAT0AAAAAABXQXEN7IWYJLM5NUE4ABJICYXUFNNQ')
@@ -24,16 +20,6 @@ let app=document.getElementById('app');
 
         crearBoton('calcular');
 })();
-
-
-// function crearReset(){
-
-//     document.body.appendChild(document.createElement('input'));
-//     document.body.lastChild.type='button';
-//     document.body.lastChild.value='Reset';
-//     document.body.lastChild.addEventListener('click',reinicio)
-// }
-
 
 
 function calcularTiempo(){
