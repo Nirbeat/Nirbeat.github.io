@@ -1,0 +1,41 @@
+{
+	"id0":{
+		"nombre": "Street Fighter II medley",
+		"durationSec": 330
+	},
+
+	"id1":{
+		"nombre": "SST (Hang Onto your Golden Axe and feel the Passing Breeze from the After Burner)",
+		"durationSec": 499
+	},
+
+	"id2":{
+		"nombre":"Sonic (groovy medley)",
+		"durationSec": 373
+	},
+
+	"id3":{
+		"nombre":"Chrono Trigger/Scars of Time",
+		"durationSec": 332
+	},
+
+	"id4":{
+		"nombre": "Castlevania (Vampire Killer/Dracula's Castle/ Tragic Prince)",
+		"durationSec": 360
+	},
+
+	"id5":{
+		"nombre": "Snake Eater",
+		"durationSec": 178
+	},
+
+	"id6":{
+		"nombre": "Arcade I (Sunset Riders/Final Fight/Turtles in Time/Metal Slug 2)",
+		"durationSec": 240
+	},
+
+	"id7":{
+		"nombre": "Final Fantasy IV Medley",
+		"durationSec": 375
+	}
+}
