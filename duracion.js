@@ -3,7 +3,7 @@ let app=document.getElementById('app');
 
 
 (function agregarOpciones(){
-    fetch('https://raw.githubusercontent.com/Nirbeat/listaTNC/539436c320651c26db5d8ca789f5c9226ef3d6e9/duraciones?token=GHSAT0AAAAAABXQXEN7IWYJLM5NUE4ABJICYXUFNNQ')
+    fetch('tnc.json')
         .then(res=>res.json())
         .then(res=>{
 
