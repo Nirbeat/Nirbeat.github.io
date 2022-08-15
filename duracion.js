@@ -3,7 +3,7 @@ let app=document.getElementById('app');
 
 
 (function agregarOpciones(){
-    fetch('tnc.json')
+    fetch('https://github.com/Nirbeat/repertorios/blob/e8e55d833923e371913527b859a33dd44a367744/tnc.json')
         .then(res=>res.json())
         .then(res=>{
 
