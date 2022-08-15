@@ -10,7 +10,7 @@
 	},
 
 	"id2":{
-		"nombre":"Sonic (groovy medley)",
+		"nombre":"Sonic (Groovy Medley)",
 		"durationSec": 373
 	},
 
@@ -37,5 +37,29 @@
 	"id7":{
 		"nombre": "Final Fantasy IV Medley",
 		"durationSec": 375
+	},
+	"id8":{
+		"nombre": "Megaman 2 Opening",
+		"durationSec": 84
+	},
+	"id9":{
+		"nombre": "Megaman X4 Medley",
+		"durationSec": 353
+	},
+	"id10":{
+		"nombre": "Sonic (Classic Medley)",
+		"durationSec": 316
+	},
+	"id11":{
+		"nombre": "Pokemon Red Medley",
+		"durationSec": 524
+	},
+	"id12":{
+		"nombre": "Contra (Full OST)",
+		"durationSec": 266
+	},
+	"id13":{
+		"nombre": "Suteki Da Ne",
+		"durationSec": 335
 	}
 }
