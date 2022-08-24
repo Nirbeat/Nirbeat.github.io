@@ -65,5 +65,9 @@
 	"id14":{
 		"nombre": "Final Fantasy V Medley",
 		"durationSec": 469
+	},
+	"id15":{
+		"nombre": "Final Fantasy VI Medley",
+		"durationSec": 425
 	}
 }
