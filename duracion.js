@@ -6,7 +6,7 @@ let arrDur=[];
 
 (function agregarOpciones(){
     
-    fetch('https://raw.githubusercontent.com/Nirbeat/nirbeat.github.io/main/tnc')
+    fetch('tnc.json')
         .then(res=>res.json())
         .then(res=>{
 
