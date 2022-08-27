@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="comprobante.js" charset="utf-8"></script>
+	<title>
+		Comprobante de pago
+	</title></head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html"> Inicio</a></li>
+				<li><a href="Comprobante de Pago.html">Comprobante de Pago</a></li>
+				<li><a href="Base de Datos.html">Base de Datos</a> </li>
+				<li><a href="Resumenes de Facturación.html">Resumenes de Facturación</a> </li>
+			</ul>
+		</nav>
+	</header>
+		<div>
+			<h1>Cobranza por Cuenta de Terceros</h1>
+			<h3>Las Margaritas</h3>
+			<h3>Tristán Suárez</h3>
+			<h3>1160344824</h3>
+	<div>
+		<form>
+			<ul>
+				<li>Fecha <input type="date" name="fecha" id="date" required></li>
+				<li>Compañía 
+					<select id="comp">
+						<option value="cal">Caledonia</option>
+						<option value="san">SanCor</option>
+					</select>
+				</li>
+				<li>Asegurado <input type="" name="Asegurado" id="aseg" required></li>
+
+				<li>
+					<input type="radio" name ="automotor/motovehiculo/otros" value="auto" checked> Automotor<br>
+					<input type="radio" name ="automotor/motovehiculo/otros" value="moto"> Motovehículo<br>
+					<input type="radio" name ="automotor/motovehiculo/otros" value="otros"> Otros
+					<input type="" name="automotor/vehiculo/otros" id="otros" required></li>
+				<li>Numero de Póliza 
+					<input type="" id="pol" required></li>
+				<li>Marca <input type="" id= "marca" required></li>
+				<li>Dominio <input type="" id="dom" required></li>
+				<li>Cobertura <input type="" id="cob" required></li>
+				<li>Cuota Nro <input type="number" name="cuota" id="cuota" required></li>
+				<li>Importe $<input type="number" name="importe" id="imp" required></li>
+				<li>Próximo vencimiento <input type="date" name="" id="venc" required></li>
+				<li>
+					<input type="submit" name="" onclick="cliente.createData()">
+				</li>
+			</ul>
+		</form>
+	</div>
+	</body>
+</html>
