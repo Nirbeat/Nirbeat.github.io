@@ -7,15 +7,18 @@
 	
 </head>
 <body>
-	<h1> Elegir temas de la lista y dar click al boton</h1>
+	<h1 id="paso"></h1>
 	<select name="bandas" id="bandas">
 		<option value="" onchange="agregarOpciones()">Elegir Banda</option>
-		<option value="tnc">The New Challengers</option>
-		<option value="tz">Taruka Zupay</option>
+		<option value="The New Challengers">The New Challengers</option>
+		<option value="Taruka Zupay">Taruka Zupay</option>
 	</select>
 	<div id="app"></div>
+	<div id="result"></div>
+	<div id="buttons"></div>
+	
 	<script src="duracion.js"></script>
-	<link rel="stylesheet" href="./duraciones.css">
+	<link rel="stylesheet" href="duraciones.css" media="all">
 </body>
 
 </html>
