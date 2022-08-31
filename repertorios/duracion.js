@@ -27,14 +27,23 @@ async function elegirBanda(){
         child=buttons.lastChild;
     }
     
+    let datos=await fetch('data.json').then(res=>res.json()).then();
 
     switch(bandas.value){
         case 'The New Challengers':
-            await fetch('tnc.json').then(res=>res.json()).then(res=>repertorio=res);
+            repertorio=datos.tnc;
             agregarOpciones();
             break;
         case 'Taruka Zupay':
-            await fetch('taruka.json').then(res=>res.json()).then(res=>repertorio=res);
+            repertorio=datos.tz;
+            agregarOpciones();
+            break;
+        case 'Blacktorch':
+            repertorio=datos.bt;
+            agregarOpciones();
+            break;        
+        case 'Garland':
+            repertorio=datos.gar;
             agregarOpciones();
             break;
         default:
