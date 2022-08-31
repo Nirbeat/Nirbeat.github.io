@@ -1,4 +1,15 @@
-.opcion{
-    padding-left: 0px;
+#app, #result, #buttons{
+    margin-top: 20px;
+
 }
 
+.item{
+    width: max-content;
+}
+
+.item:hover{
+
+    border-style:outset;
+    border-color: bisque;
+    cursor: pointer;
+}
