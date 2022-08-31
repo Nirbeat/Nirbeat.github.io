@@ -1,0 +1,253 @@
+{
+    "tnc":{
+        "id0":{
+            "nombre": "Street Fighter II medley",
+            "durationSec": 330
+        },
+    
+        "id1":{
+            "nombre": "SST (Hang Onto your Golden Axe and feel the Passing Breeze from the After Burner)",
+            "durationSec": 499
+        },
+    
+        "id2":{
+            "nombre":"Sonic (Groovy Medley)",
+            "durationSec": 373
+        },
+    
+        "id3":{
+            "nombre":"Chrono Trigger/Scars of Time",
+            "durationSec": 332
+        },
+    
+        "id4":{
+            "nombre": "Castlevania (Vampire Killer/Dracula's Castle/ Tragic Prince)",
+            "durationSec": 360
+        },
+    
+        "id5":{
+            "nombre": "Snake Eater",
+            "durationSec": 178
+        },
+    
+        "id6":{
+            "nombre": "Arcade I (Sunset Riders/Final Fight/Turtles in Time/Metal Slug 2)",
+            "durationSec": 240
+        },
+    
+        "id7":{
+            "nombre": "Final Fantasy IV Medley",
+            "durationSec": 375
+        },
+        "id8":{
+            "nombre": "Megaman 2 Opening",
+            "durationSec": 84
+        },
+        "id9":{
+            "nombre": "Megaman X4 Medley",
+            "durationSec": 353
+        },
+        "id10":{
+            "nombre": "Sonic (Classic Medley)",
+            "durationSec": 316
+        },
+        "id11":{
+            "nombre": "Pokemon Red Medley",
+            "durationSec": 524
+        },
+        "id12":{
+            "nombre": "Contra (Full OST)",
+            "durationSec": 266
+        },
+        "id13":{
+            "nombre": "Suteki Da Ne",
+            "durationSec": 335
+        },
+        "id14":{
+            "nombre": "Final Fantasy V Medley",
+            "durationSec": 469
+        },
+        "id15":{
+            "nombre": "Final Fantasy VI Medley",
+            "durationSec": 422
+        }
+    },
+
+    "tz":{
+        "id0":{
+            "nombre": "La Descreída",
+            "durationSec": 167
+        },
+    
+        "id1":{
+            "nombre": "Huayno del Diablo",
+            "durationSec": 222
+        },
+    
+        "id2":{
+            "nombre":"Fuego en Animaná",
+            "durationSec": 170
+        },
+    
+        "id3":{
+            "nombre":"Juan del Monte",
+            "durationSec": 136
+        },
+    
+        "id4":{
+            "nombre": "Chacarera Santiagueña",
+            "durationSec": 167
+        },
+    
+        "id5":{
+            "nombre": "La Copla Triste",
+            "durationSec": 239
+        },
+    
+        "id6":{
+            "nombre": "Coplas de la Luna Llena",
+            "durationSec": 136
+        },
+    
+        "id7":{
+            "nombre": "El Tímido",
+            "durationSec": 120
+        },
+    
+        "id8":{
+            "nombre": "Dejar Huella",
+            "durationSec": 165
+        },
+    
+        "id9":{
+            "nombre": "La Nocturna",
+            "durationSec": 148
+        },
+    
+        "id10":{
+            "nombre": "Campo Afuera",
+            "durationSec": 152
+        },
+    
+        "id11":{
+            "nombre": "El Chulengo",
+            "durationSec": 110
+        },
+    
+        "id12":{
+            "nombre": "La Vieja",
+            "durationSec": 140
+        },
+    
+        "id13":{
+            "nombre": "El Olvidao",
+            "durationSec": 210
+        },
+    
+        "id14":{
+            "nombre": "Retoñito",
+            "durationSec": 210
+        },
+    
+        "id15":{
+            "nombre": "Florcita de Algarrobo",
+            "durationSec": 150
+        },
+    
+        "id16":{
+            "nombre": "La Torcida",
+            "durationSec": 138
+        },
+    
+        "id17":{
+            "nombre": "Trunca de la Guerra",
+            "durationSec": 202
+        },
+    
+        "id18":{
+            "nombre": "Estrella de Fuego Verde",
+            "durationSec": 178
+        },
+        "id19":{
+            "nombre": "Bailecitos (Bailecito De los Yuyos/Pal Tiempo Del Carnaval/Bailecito Para Iluminar)",
+            "durationSec": 203
+        }
+    },
+
+    "bt":{
+        "id0":{
+            "nombre": "Transitions",
+            "durationSec": 372
+        },
+    
+        "id1":{
+            "nombre": "Tooth and Claw",
+            "durationSec": 263
+        },
+    
+        "id2":{
+            "nombre":"The Rage",
+            "durationSec": 431
+        },
+    
+        "id3":{
+            "nombre":"The Goodbye",
+            "durationSec": 338
+        },
+    
+        "id4":{
+            "nombre": "Taurus Bulba",
+            "durationSec": 258
+        },
+    
+        "id5":{
+            "nombre": "In The Beginning",
+            "durationSec": 173
+        },
+    
+        "id6":{
+            "nombre": "Happiness",
+            "durationSec": 304
+        },
+    
+        "id7":{
+            "nombre": "Bullwhip",
+            "durationSec": 76
+        },
+        "id8":{
+            "nombre": "Angel of Darkness",
+            "durationSec": 322
+        },
+        "id9":{
+            "nombre": "Alone",
+            "durationSec": 324
+        }
+    },
+
+    "gar":{
+        "id0":{
+            "nombre": "Garland",
+            "durationSec": 275
+        },
+    
+        "id1":{
+            "nombre": "Caminos, Destinos",
+            "durationSec": 376
+        },
+    
+        "id2":{
+            "nombre":"Vamonos de Aca",
+            "durationSec": 187
+        },
+    
+        "id3":{
+            "nombre":"Un Nuevo Comienzo",
+            "durationSec": 234
+        },
+    
+        "id4":{
+            "nombre": "Entre Ayer y Hoy",
+            "durationSec": 333
+        }
+    }
+}
