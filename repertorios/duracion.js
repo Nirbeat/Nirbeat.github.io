@@ -265,12 +265,10 @@ function imprimir(){
     
     let impresion=open('imprimirlista.html','','');
 
-    impresion.document.body.style.backgroundColor='red';
     impresion.document.body.appendChild(document.createElement('h1')).id='titulo';
     impresion.document.body.appendChild(document.createElement('div')).id='lista'; 
 
     let titulo=impresion.document.getElementById('titulo');
-    titulo.style.fontFamily='fantasy';
     titulo.style.fontSize=75;
     titulo.innerHTML=`${JSON.parse(localStorage.getItem('banda'))}`;
 
