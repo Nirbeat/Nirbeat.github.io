@@ -2,8 +2,9 @@ const paso=document.getElementById('paso');
 const app=document.getElementById('app');
 const buttons=document.getElementById('buttons');
 const result=document.getElementById('result');
+const fondo=document.getElementById('fondo');
 
-paso.innerHTML='Elegir temas de la lista y dar click al boton'
+paso.innerHTML='Elegir una banda'
 
 let tiempoSec=0;
 let repertorio={};
@@ -31,25 +32,35 @@ async function elegirBanda(){
 
     switch(bandas.value){
         case 'The New Challengers':
+            fondo.className='tnc';
+            app.style.color='bisque'
             repertorio=datos.tnc;
             agregarOpciones();
+            paso.innerHTML='Elegir temas del repertorio';
             break;
         case 'Taruka Zupay':
+            fondo.className='tz';
             repertorio=datos.tz;
             agregarOpciones();
+            paso.innerHTML='Elegir temas del repertorio';
             break;
         case 'Blacktorch':
+            fondo.className='blacktorch';
             repertorio=datos.bt;
             agregarOpciones();
+            paso.innerHTML='Elegir temas del repertorio';
             break;        
         case 'Garland':
+            fondo.className='garland';
             repertorio=datos.gar;
             agregarOpciones();
+            paso.innerHTML='Elegir temas del repertorio';
             break;
         default:
             repertorio={};
             agregarOpciones();
             buttons.removeChild(buttons.lastChild);
+            paso.innerHTML='Elegir una banda';
             break;
     }
 }
@@ -244,7 +255,7 @@ function mostrarLista(){
 ///////////////////////////////////////////////////////////////////////////////
 function listaFinal(){
 
-    paso.innerHTML='Elegir el orden final de los temas';
+    // paso.innerHTML='Elegir el orden final de los temas';
     app.childNodes.forEach((element)=>{
         
         element.addEventListener('click',()=>{
@@ -272,7 +283,7 @@ function listaFinal(){
 ///////////////////////////////////////////////////////////////////////////////
 function imprimir(){
     
-    let impresion=open('imprimirlista.html','','');
+    let impresion=open('','','');
 
     impresion.document.body.appendChild(document.createElement('h1')).id='titulo';
     impresion.document.body.appendChild(document.createElement('div')).id='lista'; 
