@@ -47,7 +47,7 @@ select {
 /* estilos por banda */
 .tnc{
 
-    background-image: url('/fondos/tnc.png');
+    background-image: url('./fondos/tnc.png');
     background-position:center;
     background-size:cover;
 }
