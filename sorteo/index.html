@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sorteo Feria Gamer</title>
+	<style type="text/css">
+		*{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		GANADORES DE LAS ENTRADAS A FERIA GAMER (19/06/2023)
+	</h1>
+
+	<h2>Primer/a ganador/a: </h2>
+	<p class = "winner"></p><br>
+	<h2>Segundo/a ganador/a: </h2>
+	<p class = "winner"></p><br>
+	<h2>Tercer/a ganador/a: </h2>
+	<p class = "winner"></p><br>
+
+	<button>Ver Ganadores</button>
+</body>
+<script type="text/javascript">
+
+	document.querySelector('button').addEventListener('click', showWinners);
+
+
+	let participantes = [
+		"j0se_coronel",
+		"otakuchan032",
+		"cocktailvillain",
+		"filapatricia",
+		"mati.menaa",
+		"julian_fausto01",
+		"matioffsa",
+		"maiasaurio_",
+		"elfab_ito"];
+	
+	let winnersArr = []
+
+	function pickRandom(arr){
+
+		let num = Math.floor(Math.random()*arr.length);
+		return arr[num];
+	}
+
+	function getWinners(){
+		let cantidad = 3;
+		for(let i = 3; i>0;i--){
+			let winner = pickRandom(participantes);
+			if(!winnersArr.includes(winner)){
+				winnersArr.push(winner);
+			}else{
+				i++;
+			}
+		}
+		// console.log(winnersArr);
+		return winnersArr;
+	}
+
+	function showWinners(){
+
+		let parr = document.querySelectorAll('p');
+		let winners = getWinners();
+		
+		for (let i = 0; i<winners.length; i++){
+			parr[i].innerText = winners[i];
+		}
+			winnersArr.length=0;
+
+	}
+</script>
+</html>
